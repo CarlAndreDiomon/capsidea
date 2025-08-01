@@ -24,7 +24,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png",
-      "bundler": "metro"
-    }
+      "bundler": "metro",
+      "origin": "https://capsidea.com"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "scheme": "capsidea"
   }
 }
